@@ -152,6 +152,7 @@ void printNmea(coord_nmea lat, coord_nmea lon, float height) {
   nmea_message += getTime();
   nmea_message += ",";
   if (abs(lat.full) < 1000) nmea_message += "0";
+  if (abs(lat.full) < 100) nmea_message += "0";
   nmea_message += String(lat.full);
   nmea_message += ".";
   nmea_message += stringFloat6(lat.ostatok);
@@ -166,6 +167,7 @@ void printNmea(coord_nmea lat, coord_nmea lon, float height) {
   nmea_message += ",";
   if (abs(lon.full) < 10000) nmea_message += "0";
   if (abs(lon.full) < 1000) nmea_message += "0";
+  if (abs(lon.full) < 100) nmea_message += "0";
   nmea_message += String(lon.full);
   nmea_message += ".";
   nmea_message += stringFloat6(lon.ostatok);
