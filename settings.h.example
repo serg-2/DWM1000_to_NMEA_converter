@@ -1,0 +1,30 @@
+// UART speed
+const long serial_speed = 57600;
+
+// Latitude of Base Station Degrees
+const int baselat_int = 0;
+
+// Latitude of Base Station Minutes in
+// 1 / 100 000 000 of degree
+const long baselat_fl = 33333333;
+
+// Latitude for 
+// parallel length calculation
+const float baselat = 0.333333;
+
+// Longitude of Base Station Degrees
+const int baselon_int = 0;
+
+// Longitude of Base Station Minutes in
+// In 1 / 100 000 000 of degree
+const long baselon_fl = 33333333;
+
+// Base Height in Meters
+const float base_height = 0;
+
+// Height of Geoid in meters
+const String heightGeoid = "10.00";
+
+// Rotation Angle of Coordinate System (Counter Clockwise ?) in degrees
+const float rotation_angle = 0;
+
