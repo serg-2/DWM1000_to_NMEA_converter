@@ -1,4 +1,4 @@
-# DWM1000_to_NMEA_converter
+# DWM1000_to_NMEA_converter for Arduino nano
 
 Sample input:
 
